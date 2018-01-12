@@ -2,5 +2,8 @@
 
 let happyHolidays = () => `Happy holidays!`;
 
-let happyHolidaysTo = (name) => happyHolidays() + `, ${name}!`;
+let happyHolidaysTo = (name) => `Happy holidays, ${name}!`;
+
+let happyHolidayTo = (holiday, name) => `Happy ${holiday}, ${name}!`;
+
 
